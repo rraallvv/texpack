@@ -1,0 +1,148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E4A9C80B1E1AFB1100A6B987 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		E4A9C80C1E1AFB1100A6B987 /* help.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
+		E4A9C80D1E1AFB1100A6B987 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E4A9C80E1E1AFB1100A6B987 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		E4A9C80F1E1AFB1100A6B987 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4A9C8101E1AFB1100A6B987 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		E4A9C8111E1AFB1100A6B987 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E4A9C8021E1AFB1100A6B987 = {
+			isa = PBXGroup;
+			children = (
+				E4A9C80B1E1AFB1100A6B987 /* bin */,
+				E4A9C80C1E1AFB1100A6B987 /* help.txt */,
+				E4A9C80D1E1AFB1100A6B987 /* LICENSE */,
+				E4A9C80E1E1AFB1100A6B987 /* makefile */,
+				E4A9C80F1E1AFB1100A6B987 /* README.md */,
+				E4A9C8101E1AFB1100A6B987 /* src */,
+				E4A9C8111E1AFB1100A6B987 /* test */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E4A9C8071E1AFB1100A6B987 /* texpack */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = E4A9C8121E1AFB1100A6B987 /* Build configuration list for PBXLegacyTarget "texpack" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/rhodylugo/Desktop/texpack;
+			dependencies = (
+			);
+			name = texpack;
+			passBuildSettingsInEnvironment = 0;
+			productName = texpack;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		E4A9C8031E1AFB1100A6B987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = E4A9C8061E1AFB1100A6B987 /* Build configuration list for PBXProject "texpack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4A9C8021E1AFB1100A6B987;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A9C8071E1AFB1100A6B987 /* texpack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E4A9C8041E1AFB1100A6B987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		E4A9C8051E1AFB1100A6B987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		E4A9C8131E1AFB1100A6B987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = texpack;
+			};
+			name = Debug;
+		};
+		E4A9C8141E1AFB1100A6B987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = texpack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A9C8061E1AFB1100A6B987 /* Build configuration list for PBXProject "texpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A9C8041E1AFB1100A6B987 /* Debug */,
+				E4A9C8051E1AFB1100A6B987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A9C8121E1AFB1100A6B987 /* Build configuration list for PBXLegacyTarget "texpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A9C8131E1AFB1100A6B987 /* Debug */,
+				E4A9C8141E1AFB1100A6B987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4A9C8031E1AFB1100A6B987 /* Project object */;
+}
